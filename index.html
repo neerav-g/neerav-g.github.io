@@ -7,6 +7,8 @@
         <h1>Please fill the form!</body></h1>
         <form>
             Name:     <input type="text" placeholder="Full Name" name="name"><br><br>
+            Favourite Color: <input type="color"><br><br>
+
             <div>
                 School:   <input name="school" list="schools" placeholder="School">
                 <datalist id="schools">
@@ -18,7 +20,7 @@
                     <option value="Wisdom World"></option>
                     <option value="Vidya Valley"></option>
                 </datalist>
-            </div><br><br>
+            </div><br>
 
             <div>
                 Std:   <input name="std" list="stds" placeholder="Std">
@@ -36,9 +38,27 @@
                     <option value="11"></option>
                     <option value="12"></option>
                 </datalist>
-            </div><br><br>
+            </div><br>
+
+            <div>
+                Division: <input name="division" type="radio" value="A"> A
+                          <input name="division" type="radio" value="B"> B
+                          <input name="division" type="radio" value="C"> C
+                          <input name="division" type="radio" value="D"> D
+                          <input name="division" type="radio" value="E"> E
+            </div><br>
+
             Roll No.  <input type="number" placeholder="Roll No." name="roll"><br><br>
-            Email ID: <input type="email" placeholder="Email ID" name="email"><br><br>
+            Email ID: <input type="email" placeholder="Email ID" name="email"><br>
+
+            <div>
+                <input name="division" type="checkbox" value="gmail"> Gmail
+                <input name="division" type="checkbox" value="outlook"> Microsoft
+                <input name="division" type="checkbox" value="yahoo"> Yahoo
+            </div><br><br>
+
+            <input type="submit">
+            <input type="reset">
         </form>
     </body>
 </html>
