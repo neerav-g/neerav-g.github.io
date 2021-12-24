@@ -6,9 +6,21 @@
     <body>
         <h1>Please fill the form!</body></h1>
         <form>
-            Name:     <input type="text" placeholder="Full Name" name="name"><br>
-            Roll No.  <input type="text" placeholder="Roll No." name="roll"><br>
-            Email ID: <input type="text" placeholder="Email ID" name="email"><br>
+            Name:     <input type="text" placeholder="Full Name" name="name"><br><br>
+            <div>
+                School:   <input name="school" list="schools" placeholder="School">
+                <datalist id="schools">
+                    <option value="Vibgyor"></option>
+                    <option value="Orchid"></option>
+                    <option value="PICT"></option>
+                    <option value="City International"></option>
+                    <option value="Akshya"></option>
+                    <option value="Wisdom World"></option>
+                    <option value="Vidya Valley"></option>
+                </datalist>
+            </div>
+            Roll No.  <input type="number" placeholder="Roll No." name="roll"><br><br>
+            Email ID: <input type="email" placeholder="Email ID" name="email"><br><br>
         </form>
     </body>
 </html>
